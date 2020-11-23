@@ -1,0 +1,28 @@
+package conversaotemperatura_MarcosHenrique;
+import java.utilo.Scanner;
+public class ConversaoTemperatura_MarcosHenrique
+{
+	public static void main (String[] args)
+	{
+		Scanner leitor = new Scanner (system.in);
+		system.out.print("Digite a temperatura deseja em Celsius: ");
+		double C = leitor.nextdouble();
+		double F, Subi;
+
+		F = C * 1.8 + 32;
+		
+		System.out.println("Temperatura convertida em Fahrenheit: "+F);
+		System.out.println("A temperatura em Fahrenheit subindo de 10° em 10°: ");
+		for(double i=10; i<=100;)
+		{
+
+			Subindo = F + i;
+			i = i + 10;
+			System.out.println(Subindo+"°");
+
+		}
+
+
+	}
+
+}
